@@ -1,0 +1,9 @@
+[submodule "rtorrent"]
+	path = rtorrent
+	url = https://github.com/rakshasa/rtorrent.git
+[submodule "libtorrent"]
+	path = libtorrent
+	url = https://github.com/rakshasa/libtorrent.git
+[submodule "curl"]
+	path = curl
+	url = https://github.com/bagder/curl.git
