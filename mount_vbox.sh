@@ -1,0 +1,1 @@
+sshfs -o Compression=no -o Ciphers=arcfour -o cache=yes -o kernel_cache -o large_read -o cache_timeout=720 -o cache_stat_timeout=720 -o cache_dir_timeout=720 -o cache_link_timeout=720 user@localhost:/home/user/local_vbox vbox_local_nfs/ -p2222

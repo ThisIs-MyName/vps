@@ -1,4 +1,5 @@
 /out/
+/ncurses*
 
 # Compiled Object files
 *.slo
