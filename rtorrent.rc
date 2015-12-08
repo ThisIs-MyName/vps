@@ -15,7 +15,7 @@ download_rate = 0
 upload_rate = 0
 
 # Default directory to save the downloaded torrents.
-directory = /home/user/downloads
+directory = /home/user/external_vbox_mount/Media/
 
 # Default session directory. Make sure you don't run multiple instance
 # of rtorrent using the same session directory. Perhaps using a
@@ -77,4 +77,6 @@ protocol.pex.set = yes
 network.send_buffer.size.set = 16M
 network.receive_buffer.size.set = 16M
 
-network.max_open_files.set = 5000
+network.max_open_files.set = 500
+
+scheduler.max_active.set = 1000

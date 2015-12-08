@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -o verbose
 wget ftp://invisible-island.net/ncurses/ncurses.tar.gz &&
 tar xf ncurses.tar.gz &&
